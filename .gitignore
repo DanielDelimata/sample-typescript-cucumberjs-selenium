@@ -1,0 +1,7 @@
+allure-results/
+node_modules/
+.cache
+dist
+.env
+*.code-workspace
+package-lock.json
