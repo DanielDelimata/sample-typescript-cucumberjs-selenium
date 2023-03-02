@@ -1,0 +1,1 @@
+{"total":2,"items":[{"uid":"893736e249dd6ce8c32e1190a255c5a2","name":"F01 Searching – Correctness","statistic":{"failed":1,"broken":0,"skipped":0,"passed":1,"unknown":0,"total":2}},{"uid":"3c8f257b2b9fd8c6e0518bc53b4272e0","name":"F02 Searching – Clearing of searching criteria","statistic":{"failed":0,"broken":0,"skipped":0,"passed":1,"unknown":1,"total":2}}]}

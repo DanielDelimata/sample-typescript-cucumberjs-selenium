@@ -1,0 +1,16 @@
+Search,Column,Case,Summary,searchTerm
+1,Id,True,Showing 1 of 3 customers,filtered by term \"1\" in Id column with match case.
+1,Id,False,Showing 1 of 3 customers,filtered by term \"1\" in Id column without match case.
+4,Id,True,Showing 0 of 3 customers,filtered by term \"4\" in Id column with match case.
+4,Id,False,Showing 0 of 3 customers,filtered by term \"4\" in Id column without match case.
+Alice,Name,True,Showing 1 of 3 customers,filtered by term \"Alice\" in Name column with match case.
+alice,Name,True,Showing 0 of 3 customers,filtered by term \"alice\" in Name column with match case.
+alice,Name,False,Showing 1 of 3 customers,filtered by term \"alice\" in Name column without match case.
+placeholder,Email,True,Showing 1 of 3 customers,filtered by term \"placeholder\" in Email column with match case.
+Placeholder,Email,False,Showing 1 of 3 customers,filtered by term \"Placeholder\" in Email column without match case.
+Placeholder,Email,True,Showing 0 of 3 customers,filtered by term \"Placeholder\" in Email column with match case.
+Athens,City,True,Showing 1 of 3 customers,filtered by term \"Athens\" in City column with match case.
+athens,City,False,Showing 1 of 3 customers,filtered by term \"athens\" in City column without match case.
+athens,City,True,Showing 0 of 3 customers,filtered by term \"athens\" in City column with match case.
+company,Email,False,Showing 2 of 3 customers,filtered by term \"company\" in Email column without match case.
+Athens,City,True,wrong expected result,intentionally incorrect

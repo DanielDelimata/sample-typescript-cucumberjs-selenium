@@ -1,0 +1,6 @@
+Search,Column,Case,Result
+1,Id,False,Id Name Email City 1 Alice alice@company.com Berlin
+2,Id,False,Id Name Email City 2 Bob info@company.eu Tokyo
+3,Id,False,Id Name Email City 3 Charlie contact@placeholder.io Athens
+company,Email,False,Id Name Email City 1 Alice alice@company.com Berlin 2 Bob info@company.eu Tokyo
+4,Id,False,Id Name Email City
