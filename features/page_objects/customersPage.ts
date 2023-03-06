@@ -1,8 +1,8 @@
 import { WebDriver, By } from 'selenium-webdriver';
-import { ApplicationPage } from './ApplicationPage';
+import { AbstractPageObject } from './AbstractPageObject';
 import { driver } from '../support/hook';
 
-export class CustomersPage extends ApplicationPage {
+export class CustomersPage extends AbstractPageObject {
     private clickToClearFiltersButton = By.id('clear-button');
 
     private searchInput = By.id('search-input');

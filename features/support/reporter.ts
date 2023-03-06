@@ -1,5 +1,4 @@
-import { AllureRuntime } from "allure-js-commons";
-import { CucumberJSAllureFormatter } from "allure-cucumberjs";
+import { AllureRuntime, CucumberJSAllureFormatter } from "allure-cucumberjs";
 
 export default class Reporter extends CucumberJSAllureFormatter {
   constructor(options: any) {

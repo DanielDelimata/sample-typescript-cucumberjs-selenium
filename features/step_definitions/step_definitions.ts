@@ -37,7 +37,7 @@ Then('the user should see the following result summary {string}',
 
 Then('the user should see that the search term is {string}',
     async function (expectedTerm: string) {
-        let searchTerm: string = (await customersPage.getSearchTermText());
+        let searchTerm: string = await customersPage.getSearchTermText();
         assert.ok(searchTerm.startsWith(expectedTerm),
             "Actual should starts with expected."
             + "\nActual: " + searchTerm
