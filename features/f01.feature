@@ -35,7 +35,7 @@ Feature: F01 Searching – Correctness
     And the user should see that the search term is "<searchTerm>"
 
     Examples:
-      | Search      | Column | Case  | Summary                  | searchTerm                                                         |
+      | Search      | Column | Case  | Summary                  | searchTerm                                                           |
       | 1           | Id     | True  | Showing 1 of 3 customers | filtered by term \"1\" in Id column with match case.                 |
       | 1           | Id     | False | Showing 1 of 3 customers | filtered by term \"1\" in Id column without match case.              |
       | 4           | Id     | True  | Showing 0 of 3 customers | filtered by term \"4\" in Id column with match case.                 |
